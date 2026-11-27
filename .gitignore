@@ -1,0 +1,23 @@
+# Documents annexes conservés uniquement en local
+/annex/
+
+# Fichiers locaux macOS et exports de conversations
+.DS_Store
+.idea/
+/session-*.md
+
+# Secrets et fichiers de configuration personnels
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+
+# Images d'installation et disques de machines virtuelles
+*.iso
+*.qcow2
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
